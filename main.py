@@ -12,7 +12,7 @@ with c1:
      st.image("images/newspaper.png", width=85)
 
 with c2:
-    st.title("FastNews Article Summarizer")
+    st.title("Pragyan AI's FastNews Article Summarizer")
 
 st.markdown("**Generate summaries of articles and blog posts using abstractive summarization with Google's Pegasus language model.**")
 
@@ -20,7 +20,7 @@ st.markdown("**Generate summaries of articles and blog posts using abstractive s
 # Sidebar content
 st.sidebar.subheader("About the app")
 st.sidebar.info("This app uses 🤗HuggingFace's [google/pegasus-cnn_dailymail](https://huggingface.co/google/pegasus-cnn_dailymail) model.\
-                 \nYou can find the source code [here](https://github.com/ivnlee/streamlit-text-summarizer)")
+                 \n")
 st.sidebar.write("\n\n")
 st.sidebar.markdown("**Get a free API key from HuggingFace:**")
 st.sidebar.markdown("* Create a [free account](https://huggingface.co/join) or [login](https://huggingface.co/login)")
