@@ -31,7 +31,7 @@ st.sidebar.divider()
 st.sidebar.write("Please make sure your article is in English and is not behind a paywall.")
 st.sidebar.write("\n\n")
 st.sidebar.divider()
-st.sidebar.caption("Created by [Ivan Lee](https://ivan-lee.medium.com/) using [Streamlit](https://streamlit.io/)🎈.")
+st.sidebar.caption("Created by PragyanAI - For students to play and learn with it.")
 
 
 # Inputs 
